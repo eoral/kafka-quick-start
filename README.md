@@ -1,7 +1,7 @@
 # Intro
 - This is a simple Spring Boot app to explore basic Kafka integration features:
-  - Publishing messages to a topic
-  - Listening to a topic and consuming incoming messages
+  - Publishing messages to a topic. We can also call it "creating events".
+  - Listening to a topic and consuming incoming messages. We can also call it "reacting to events".
 - I recommend reading this very short introduction before continuing to next steps: https://kafka.apache.org/intro
 - **KafkaProducer** class has a method that sends a message to a topic named **quickstart-events**.
 - **KafkaProducerConfig** class is where we configure the things required for **KafkaProducer** class.
